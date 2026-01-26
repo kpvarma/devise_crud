@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
 
   # Dependencies
   spec.add_dependency "rails", "~> 8.0.1" # Compatible with Rails 8.0.x
-  spec.add_dependency "devise", "~> 4.9.0" # Compatible with Devise 4.9.x
+  spec.add_dependency "devise", ">= 4.9", "< 5.1" # Compatible with Devise 4.9.x
   
   # Dev Dependencies
   # spec.add_development_dependency 'byebug', '~> 11.1'
